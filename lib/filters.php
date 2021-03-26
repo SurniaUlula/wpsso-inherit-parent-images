@@ -54,7 +54,7 @@ if ( ! class_exists( 'WpssoIpmFilters' ) ) {
 		public function update_post_metadata( $check = null, $obj_id, $meta_key, $meta_value, $prev_value ) {
 
 			if ( ! $this->can_inherit_metadata( $meta_key ) ) {	// Uses a local cache.
-	
+
 				return $check;
 			}
 
@@ -63,7 +63,7 @@ if ( ! class_exists( 'WpssoIpmFilters' ) ) {
 				foreach ( get_post_ancestors( $obj_id ) as $parent_id ) {
 
 					$meta_cache = $this->get_meta_cache( $parent_id, 'post' );
-	
+
 					if ( ! empty( $meta_cache[ $meta_key ][ 0 ] ) ) {	// Parent has a meta key value.
 
 						$parent_value = maybe_unserialize( $meta_cache[ $meta_key ][ 0 ] );
@@ -82,7 +82,7 @@ if ( ! class_exists( 'WpssoIpmFilters' ) ) {
 		public function get_post_metadata( $meta_data, $obj_id, $meta_key, $single ) {
 
 			if ( ! $this->can_inherit_metadata( $meta_key ) ) {	// Uses a local cache.
-	
+
 				return $meta_data;
 			}
 
