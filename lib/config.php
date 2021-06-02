@@ -17,7 +17,7 @@ if ( ! class_exists( 'WpssoIpmConfig' ) ) {
 		public static $cf = array(
 			'plugin' => array(
 				'wpssoipm' => array(			// Plugin acronym.
-					'version'     => '3.6.0',	// Plugin version.
+					'version'     => '3.7.0-dev.1',	// Plugin version.
 					'opt_version' => '1',		// Increment when changing default option values.
 					'short'       => 'WPSSO IPM',	// Short plugin name.
 					'name'        => 'WPSSO Inherit Parent Metadata',
@@ -43,7 +43,7 @@ if ( ! class_exists( 'WpssoIpmConfig' ) ) {
 							'home'          => 'https://wordpress.org/plugins/wpsso/',
 							'plugin_class'  => 'Wpsso',
 							'version_const' => 'WPSSO_VERSION',
-							'min_version'   => '8.25.2',
+							'min_version'   => '8.30.0-dev.1',
 						),
 					),
 
@@ -74,25 +74,25 @@ if ( ! class_exists( 'WpssoIpmConfig' ) ) {
 					 */
 					'og_img_max'    => null,
 					'og_img_id'     => null,
-					'og_img_id_pre' => null,
+					'og_img_id_lib' => null,
 					'og_img_url'    => null,
 
 					/**
 					 * Pinterest.
 					 */
 					'p_img_id'     => null,
-					'p_img_id_pre' => null,
+					'p_img_id_lib' => null,
 					'p_img_url'    => null,
 
 					/**
 					 * Twitter Cards.
 					 */
 					'tc_lrg_img_id'     => null,
-					'tc_lrg_img_id_pre' => null,
+					'tc_lrg_img_id_lib' => null,
 					'tc_lrg_img_url'    => null,
 
 					'tc_sum_img_id'     => null,
-					'tc_sum_img_id_pre' => null,
+					'tc_sum_img_id_lib' => null,
 					'tc_sum_img_url'    => null,
 
 					/**
@@ -100,7 +100,7 @@ if ( ! class_exists( 'WpssoIpmConfig' ) ) {
 					 */
 					'schema_img_max'    => null,
 					'schema_img_id'     => null,
-					'schema_img_id_pre' => null,
+					'schema_img_id_lib' => null,
 					'schema_img_url'    => null,
 				),
 			),
