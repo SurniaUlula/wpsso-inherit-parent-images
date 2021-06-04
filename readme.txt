@@ -68,7 +68,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 <h3>Changelog / Release Notes</h3>
 
-**Version 3.7.0-dev.1 (TBD)**
+**Version 3.7.0-dev.2 (2021/06/04)**
 
 * **New Features**
 	* None.
@@ -77,11 +77,11 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 * **Bugfixes**
 	* None.
 * **Developer Notes**
-	* None.
+	* Renamed all '*_img_id_pre' option keys to '*_img_id_lib' for WPSSO 8.30.0.
 * **Requires At Least**
 	* PHP v7.0.
 	* WordPress v4.7.
-	* WPSSO Core v8.30.0-dev.1.
+	* WPSSO Core v8.30.0-dev.2.
 
 **Version 3.6.0 (2021/03/08)**
 
@@ -130,9 +130,9 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 == Upgrade Notice ==
 
-= 3.7.0-dev.1 =
+= 3.7.0-dev.2 =
 
-(TBD) None.
+(2021/06/04) Renamed option keys for WPSSO 8.30.0.
 
 = 3.6.0 =
 
