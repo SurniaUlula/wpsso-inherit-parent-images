@@ -17,8 +17,8 @@ if ( ! class_exists( 'WpssoIpmConfig' ) ) {
 		public static $cf = array(
 			'plugin' => array(
 				'wpssoipm' => array(			// Plugin acronym.
-					'version'     => '3.7.0-b.2',	// Plugin version.
-					'opt_version' => '1',		// Increment when changing default option values.
+					'version'     => '3.7.0-rc.1',	// Plugin version.
+					'opt_version' => '2',		// Increment when changing default option values.
 					'short'       => 'WPSSO IPM',	// Short plugin name.
 					'name'        => 'WPSSO Inherit Parent Metadata',
 					'desc'        => 'Inherit featured and custom images from parents for posts, pages, custom post types, categories, tags, and custom taxonomies.',
@@ -43,7 +43,7 @@ if ( ! class_exists( 'WpssoIpmConfig' ) ) {
 							'home'          => 'https://wordpress.org/plugins/wpsso/',
 							'plugin_class'  => 'Wpsso',
 							'version_const' => 'WPSSO_VERSION',
-							'min_version'   => '8.30.0-b.2',
+							'min_version'   => '8.30.0-rc.1',
 						),
 					),
 
