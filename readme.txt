@@ -68,7 +68,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 <h3>Changelog / Release Notes</h3>
 
-**Version 3.7.0-b.1 (2021/06/07)**
+**Version 3.7.0-b.2 (2021/06/08)**
 
 * **New Features**
 	* None.
@@ -81,7 +81,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 * **Requires At Least**
 	* PHP v7.0.
 	* WordPress v4.7.
-	* WPSSO Core v8.30.0-b.1.
+	* WPSSO Core v8.30.0-b.2.
 
 **Version 3.6.0 (2021/03/08)**
 
@@ -130,9 +130,9 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 == Upgrade Notice ==
 
-= 3.7.0-b.1 =
+= 3.7.0-b.2 =
 
-(2021/06/07) Renamed option keys for WPSSO 8.30.0.
+(2021/06/08) Renamed option keys for WPSSO 8.30.0.
 
 = 3.6.0 =
 
