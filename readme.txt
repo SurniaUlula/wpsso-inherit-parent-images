@@ -21,19 +21,19 @@ Inherit featured and custom images from parents for posts, pages, custom post ty
 
 = Featured Image =
 
-**If no featured image has been selected** &mdash; for a *post*, *page*, or *custom post type* &mdash; this add-on will assign the first featured image found from its parent, grand-parent, great-grand-parent, etc.
+**If no featured image has been selected** - for a *post*, *page*, or *custom post type* - this add-on will assign the first featured image found from its parent, grand-parent, great-grand-parent, etc.
 
-WordPress does not offer featured images for taxonomy terms (categories, tags, and custom taxonomies) &mdash; to assign a custom image to a term, select an image in the Document SSO metabox when editing a term. The WPSSO IPM add-on will cascade the custom image(s) to the children of that term, along with the children of those children, etc.
+WordPress does not offer featured images for taxonomy terms (categories, tags, and custom taxonomies) - to assign a custom image to a term, select an image in the Document SSO metabox when editing a term. The WPSSO IPM add-on will cascade the custom image(s) to the children of that term, along with the children of those children, etc.
 
 = Custom Images =
 
-**If no custom image has been selected in the Document SSO metabox** &mdash; for a *post*, *page*, *custom post type*, *category*, *tag*, or *custom taxonomy* &mdash; this add-on will assign the first custom image found (if any) from its parent, grand-parent, great-grand-parent, etc.
+**If no custom image has been selected in the Document SSO metabox** - for a *post*, *page*, *custom post type*, *category*, *tag*, or *custom taxonomy* - this add-on will assign the first custom image found (if any) from its parent, grand-parent, great-grand-parent, etc.
 
-Inherited images are assigned as default values &mdash; you can always edit any child to select a different featured or custom image (which will then be inherited by its own children).
+Inherited images are assigned as default values - you can always edit any child to select a different featured or custom image (which will then be inherited by its own children).
 
-The Inherit Parent Metadata (aka WPSSO IPM) add-on makes no permanent changes &mdash; simply deactivate the plugin to disable the inherited image feature. ;-)
+The Inherit Parent Metadata (aka WPSSO IPM) add-on makes no permanent changes - deactivate the plugin to disable the inherited image feature. ;-)
 
-There is no add-on settings page for this plugin &mdash; simply *install* and *activate* the plugin.
+There is no add-on settings page for this plugin - simply *install* and *activate* the plugin.
 
 <h3>WPSSO Core Plugin Required</h3>
 
