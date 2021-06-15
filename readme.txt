@@ -31,13 +31,13 @@ WordPress does not offer featured images for taxonomy terms (categories, tags, a
 
 Inherited images are assigned as default values - you can always edit any child to select a different featured or custom image (which will then be inherited by its own children).
 
-The Inherit Parent Metadata (aka WPSSO IPM) add-on makes no permanent changes - deactivate the plugin to disable the inherited image feature. ;-)
+The Inherit Parent Metadata (WPSSO IPM) add-on makes no permanent changes - deactivate the plugin to disable the inherited image feature. ;-)
 
 There is no add-on settings page for this plugin - simply *install* and *activate* the plugin.
 
-<h3>WPSSO Core Plugin Required</h3>
+<h3>WPSSO Core Required</h3>
 
-WPSSO Inherit Parent Metadata (aka WPSSO IPM) is an add-on for the [WPSSO Core plugin](https://wordpress.org/plugins/wpsso/). WPSSO Core and its add-ons make sure your content looks best on social sites and in search results, no matter how webpages are shared, re-shared, messaged, posted, embedded, or crawled.
+WPSSO Inherit Parent Metadata (WPSSO IPM) is an add-on for the [WPSSO Core plugin](https://wordpress.org/plugins/wpsso/).
 
 == Installation ==
 
